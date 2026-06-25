@@ -64,7 +64,7 @@ def delete_event(event_id):
     events = [e for e in events if e.id != event_id]    
 
     # TODO: Task 4 - Return and Handle Results
-    return ('Event deleted', 204)
+    return ('', 204)
     
 
 if __name__ == "__main__":
